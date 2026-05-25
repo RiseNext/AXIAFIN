@@ -49,4 +49,14 @@ export const offices = [
     mapsUrl:
       "https://www.google.com/maps/search/?api=1&query=Margadarshi+Colony+Kothapet+Hyderabad+500035",
   },
+  {
+    city: "Ahmedabad, Gujarat",
+    label: "Communication Branch",
+    addr: "Ahmedabad, Gujarat — full address available on request",
+    phone: "+91 89787 23684",
+    whatsapp: "+91 89776 08216",
+    email: "info@axiafin.com",
+    mapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=Ahmedabad+Gujarat",
+  },
 ] as const;
