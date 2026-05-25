@@ -23,27 +23,15 @@ export function LogoMark({
       aria-label="AXIAFIN"
       className={cn("shrink-0", className)}
     >
-      <rect
-        x="2"
-        y="2"
-        width="60"
-        height="60"
-        rx="14"
-        fill="url(#axiafin-bg)"
-      />
-      {/* Open 'A' triangle */}
+      {/* Vibrant royal-blue rounded square background */}
+      <rect x="0" y="0" width="64" height="64" rx="14" fill="#2A2FD0" />
+      {/* Open 'A' triangle — wider, taller, more prominent */}
       <path
-        d="M32 16 L48 44 L41 44 L32 27 L23 44 L16 44 Z"
+        d="M32 11 L55 48 L43 48 L32 28 L21 48 L9 48 Z"
         fill="#FFFFFF"
       />
-      {/* Lime base bar */}
-      <rect x="14" y="48" width="36" height="6" rx="3" fill="#7AC23C" />
-      <defs>
-        <linearGradient id="axiafin-bg" x1="0" y1="0" x2="64" y2="64">
-          <stop offset="0%" stopColor="#3D43C9" />
-          <stop offset="100%" stopColor="#2A2F9E" />
-        </linearGradient>
-      </defs>
+      {/* Lime base bar — wider, lower */}
+      <rect x="6" y="51" width="52" height="8" rx="4" fill="#7AC23C" />
     </svg>
   );
 }

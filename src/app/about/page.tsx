@@ -131,14 +131,16 @@ export default function AboutPage() {
                 <span className="text-lime italic font-medium">AXIAFIN</span>
               </h1>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-                A unit of{" "}
                 <span className="font-semibold text-ink">
                   SRASHTA FIN SERVICES PRIVATE LIMITED
                 </span>{" "}
-                — a premier entity for professional services, headquartered in
-                Hyderabad, with a branch in Kothapet, Hyderabad and a
-                Communication Branch in Ahmedabad, Gujarat. We specialize in
-                delivering comprehensive financial, taxation, and corporate legal
+                — a premier entity for professional services, headquartered in{" "}
+                <span className="font-semibold text-ink">
+                  Hi-Tech City, HYDERABAD
+                </span>
+                , with a branch in Kothapet, Hyderabad and a Communication
+                Branch in Ahmedabad, Gujarat. We specialize in delivering
+                comprehensive financial, taxation, and corporate legal
                 solutions.
               </p>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
@@ -161,7 +163,7 @@ export default function AboutPage() {
                   Explore Services
                 </LinkButton>
                 <LinkButton href="/contact" variant="outline-light" size="lg">
-                  Talk to a Partner
+                  Book Consultation
                 </LinkButton>
               </div>
             </FadeIn>

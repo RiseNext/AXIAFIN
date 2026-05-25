@@ -52,7 +52,7 @@ export const offices = [
   {
     city: "Ahmedabad, Gujarat",
     label: "Communication Branch",
-    addr: "Ahmedabad, Gujarat — full address available on request",
+    addr: "Ahmedabad, Gujarat",
     phone: "+91 89787 23684",
     whatsapp: "+91 89776 08216",
     email: "info@axiafin.com",
