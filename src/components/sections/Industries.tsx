@@ -46,7 +46,7 @@ export function Industries() {
                   ))}
                 </ul>
                 <div className="flex items-center gap-2 text-xs uppercase tracking-widest font-bold text-ink group-hover:text-lime transition-colors">
-                  Talk to a CA
+                  Talk to CA
                   <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
                 </div>
               </article>
