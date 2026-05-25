@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, ShieldCheck, Sparkles, CheckCircle2 } from "lucide-react";
+import { ArrowRight, ShieldCheck, CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { LinkButton } from "@/components/ui/Button";
 import { FadeIn } from "@/components/ui/FadeIn";
@@ -36,13 +36,6 @@ export function Hero() {
 
       <Container className="relative z-10 py-28 md:py-32 grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 2xl:gap-24 items-center">
         <FadeIn direction="right" className="space-y-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-indigo/20 bg-white/70 backdrop-blur shadow-sm">
-            <Sparkles className="w-4 h-4 text-indigo" aria-hidden="true" />
-            <span className="text-[10px] uppercase tracking-[0.25em] font-bold text-ink">
-              Chartered Accountants · Hyderabad
-            </span>
-          </div>
-
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-ink leading-[1.05] md:leading-[1.02] font-bold text-balance">
             Empowering Your{" "}
             <span className="text-gradient-brand italic font-medium">
