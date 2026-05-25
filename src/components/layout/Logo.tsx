@@ -56,13 +56,43 @@ export function Logo({
       {showWordmark && (
         <span
           className={cn(
-            "font-display text-[22px] font-bold tracking-[-0.01em] leading-none inline-flex items-baseline",
+            "font-display text-[22px] font-bold tracking-[-0.01em] leading-none inline-flex items-center",
             wordmarkColor,
           )}
         >
-          A<span className="text-lime">X</span>IAFIN
+          A<SplitX />IAFIN
         </span>
       )}
     </Link>
+  );
+}
+
+/**
+ * The "X" in the AXIAFIN wordmark — split into two diagonal strokes:
+ *   ▸ \ stroke (top-left → bottom-right) inherits the surrounding text colour
+ *     (dark ink on light navbars, white on dark sections).
+ *   ▸ / stroke (top-right → bottom-left) is the brand lime green so the letter
+ *     reads as half-dark / half-green exactly like the reference logotype.
+ */
+function SplitX() {
+  return (
+    <svg
+      viewBox="0 0 100 100"
+      aria-hidden="true"
+      preserveAspectRatio="xMidYMid meet"
+      style={{
+        display: "inline-block",
+        width: "0.78em",
+        height: "0.78em",
+        verticalAlign: "middle",
+        marginInline: "0.015em",
+        marginBottom: "0.06em",
+      }}
+    >
+      {/* "\" stroke — inherits text colour (ink / white) via currentColor */}
+      <polygon points="0,0 22,0 100,100 78,100" fill="currentColor" />
+      {/* "/" stroke — brand lime green, drawn on top so it reads as green at the crossover */}
+      <polygon points="78,0 100,0 22,100 0,100" fill="#7AC23C" />
+    </svg>
   );
 }
