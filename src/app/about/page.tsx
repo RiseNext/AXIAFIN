@@ -134,14 +134,11 @@ export default function AboutPage() {
                 <span className="font-semibold text-ink">
                   SRASHTA FIN SERVICES PRIVATE LIMITED
                 </span>{" "}
-                — a premier entity for professional services, headquartered in{" "}
-                <span className="font-semibold text-ink">
-                  Hi-Tech City, HYDERABAD
-                </span>
-                , with a branch in Kothapet, Hyderabad and a Communication
-                Branch in Ahmedabad, Gujarat. We specialize in delivering
-                comprehensive financial, taxation, and corporate legal
-                solutions.
+                — a premier entity for professional services, headquartered in
+                Hi-Tech City, Hyderabad, with a branch in Kothapet, Hyderabad
+                and a Communication Branch in Ahmedabad, Gujarat. We specialize
+                in delivering comprehensive financial, taxation, and corporate
+                legal solutions.
               </p>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
                 Our core philosophy is built on{" "}
