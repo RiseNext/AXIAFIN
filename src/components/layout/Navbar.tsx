@@ -58,7 +58,7 @@ export function Navbar() {
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all duration-300",
         isElevated
-          ? "bg-white/85 backdrop-blur-xl shadow-[0_8px_30px_-12px_rgba(14,16,36,0.12)] border-b border-ink/[0.06]"
+          ? "bg-mist/90 backdrop-blur-xl shadow-[0_8px_30px_-12px_rgba(10,25,41,0.10)] border-b border-ink/[0.06]"
           : "bg-transparent",
       )}
     >
@@ -155,7 +155,7 @@ export function Navbar() {
             onMouseEnter={cancelClose}
             onMouseLeave={scheduleClose}
           >
-            <div className="bg-white/95 backdrop-blur-xl shadow-[0_30px_80px_-20px_rgba(14,16,36,0.2)]">
+            <div className="bg-mist/95 backdrop-blur-xl shadow-[0_30px_80px_-20px_rgba(10,25,41,0.18)]">
               <div className="mx-auto w-full max-w-[80rem] xl:max-w-[90rem] 2xl:max-w-[104rem] 3xl:max-w-[116rem] 4xl:max-w-[132rem] px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12 3xl:px-14 py-10">
                 <MegaMenuContent name={openMega} />
               </div>
@@ -174,7 +174,7 @@ export function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: reduce ? 0 : 0.25, ease: "easeOut" }}
-            className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-ink/[0.06] overflow-hidden"
+            className="lg:hidden bg-mist/95 backdrop-blur-xl border-b border-ink/[0.06] overflow-hidden"
           >
             <div className="px-4 pt-2 pb-6 space-y-1 max-h-[calc(100vh-5rem)] overflow-y-auto">
               {navLinks.map((link) => (
