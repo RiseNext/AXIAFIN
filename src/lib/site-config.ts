@@ -42,7 +42,7 @@ export const offices = [
   {
     city: "Kothapet, Hyderabad",
     label: "Branch Office",
-    addr: "2nd Floor, 11-13-116/8, Rd Number 4, Polkampally, Margadarshi Colony, Kothapet, Hyderabad, Telangana 500035",
+    addr: "2nd Floor, 11-13-116/8, Rd Number 4, Margadarshi Colony, Kothapet, Hyderabad, Telangana 500035",
     phone: "+91 89787 23684",
     whatsapp: "+91 89776 08216",
     email: "info@axiafin.com",

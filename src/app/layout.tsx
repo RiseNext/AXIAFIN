@@ -106,7 +106,7 @@ export default function RootLayout({
       {
         "@type": "PostalAddress",
         streetAddress:
-          "2nd Floor, 11-13-116/8, Rd Number 4, Polkampally, Margadarshi Colony, Kothapet",
+          "2nd Floor, 11-13-116/8, Rd Number 4, Margadarshi Colony, Kothapet",
         addressLocality: "Hyderabad",
         addressRegion: "Telangana",
         postalCode: "500035",
